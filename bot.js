@@ -8,8 +8,8 @@ function clean(text) {
         return text;
 }
 
-const prefix = "0";
-const token = "NTgyMTM4MjI5MDYzNjgwMDAw.XOpcmg.lOxA-HBVfBzsKluVY62dea7DWYI";
+const prefix = "-";
+const token = "NTk4MjQyMTg4NTA1MjUxODY4.XSTykg.7JJ2mW_tliSdcZf5TsBcsRnmxiA";
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -92,7 +92,7 @@ if (message.content.toLowerCase().startsWith(prefix + `سكر`)) {
 });
 
 
-const devid = ["527107547031928842"]//غيرها الي ايديهات مبرمجين البوت
+const devid = ["441344394625548300"]//غيرها الي ايديهات مبرمجين البوت
 const devpr = "0"//غيرها الي البرفكس الخاص
 
 client.on("message", message => {
